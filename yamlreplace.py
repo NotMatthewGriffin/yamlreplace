@@ -1,7 +1,6 @@
 from functools import reduce, partial
 from sys import argv, stderr, stdin
 from stat import S_ISREG, S_ISFIFO
-from operator import itemgetter
 from itertools import starmap
 from os import fstat
 
