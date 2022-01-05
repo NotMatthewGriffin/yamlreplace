@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "yamlreplace"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Griffin <1matthewgriffin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
